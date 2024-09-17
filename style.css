@@ -1,5 +1,36 @@
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+header{
+  text-align: center;
+}
+#featured-property img{
+  text-align: center;
+  
+}
+nav a{
+  text-align: center;
+  padding: 0 10px;
+  background-color: grey;
+}
+#featured-property figcaption{
+  font-size: medium;
+  text-align: center;
+}
+#feautured-property p{
+  width: 800px;
+  text-align: center;
+}
+#details{
+display: flex;
+flex-direction: row;
+}
+div{
+  float: left;
+  background-color: orangered;
+  text-align: center;
+  width: 25%;
 }
